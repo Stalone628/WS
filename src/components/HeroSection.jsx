@@ -20,7 +20,7 @@ export function HeroSection() {
             Ver Estudos de Caso
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </a>
-          <a href="mailto:contato@wanderson.dev" className="btn-secondary w-full sm:w-auto">
+          <a href="https://wa.me/5596984344154?text=Olá,%20vi%20o%20seu%20portfólio%20e%20gostaria%20de%20bater%20um%20papo!" target="_blank" rel="noreferrer" className="btn-secondary w-full sm:w-auto">
             Bater um papo (10 min)
           </a>
         </div>
