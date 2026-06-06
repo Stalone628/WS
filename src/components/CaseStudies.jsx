@@ -24,13 +24,14 @@ export function CaseStudies() {
     },
     {
       id: 3,
-      title: "Infraestrutura escalável via GitHub Actions e Docker",
-      problem: "A equipe perdia dezenas de horas mensais com deploys manuais e inconsistências entre os ambientes de staging e produção.",
-      architecture: "Containerização das aplicações com Docker e implementação de pipelines CI/CD automatizadas no GitHub Actions para AWS ECS.",
-      challenges: "Configurar deploys blue-green e gerenciar segredos com segurança em um ecossistema complexo.",
-      result: "Automação total do ciclo de vida, reduzindo o tempo de deploy de 2 horas para 5 minutos de forma previsível.",
-      tags: ["Docker", "CI/CD", "GitHub Actions", "AWS"],
-      icon: "server"
+      title: "Assistente de IA Corporativo (RAG Engine)",
+      problem: "A equipe perdia horas procurando respostas em centenas de manuais de RH e TI espalhados pela empresa, gerando gargalos de suporte.",
+      architecture: "Construção de uma arquitetura RAG (Retrieval-Augmented Generation) em Node.js puro, processando similaridade semântica para injetar contexto real em modelos de linguagem (LLMs).",
+      challenges: "Criar um mecanismo de busca vetorial e garantir que a IA respondesse EXCLUSIVAMENTE com base na documentação interna, eliminando alucinações.",
+      result: "Redução de 90% no tempo de busca de informações e automatização do suporte interno com respostas precisas e com citação de fontes.",
+      tags: ["Node.js", "Preact", "RAG", "Artificial Intelligence", "Vector Search"],
+      icon: "bot",
+      repoLink: "https://github.com/Stalone628/ai-rag-assistant-showcase"
     }
   ];
 
@@ -52,6 +53,7 @@ export function CaseStudies() {
                 {c.icon === 'shopping-cart' && <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>}
                 {c.icon === 'activity' && <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>}
                 {c.icon === 'server' && <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>}
+                {c.icon === 'bot' && <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 8V4H8"></path><rect width="16" height="12" x="4" y="8" rx="2"></rect><path d="M2 14h2"></path><path d="M20 14h2"></path><path d="M15 13v2"></path><path d="M9 13v2"></path></svg>}
               </div>
               <h3 className="text-xl font-bold mb-3 text-slate-100">{c.title}</h3>
               <div className="flex-grow space-y-4 text-sm text-slate-300 mb-6">
