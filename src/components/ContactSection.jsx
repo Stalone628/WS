@@ -14,7 +14,7 @@ export function ContactSection() {
           <div className="relative z-10 flex-shrink-0">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-dark-700 overflow-hidden shadow-2xl relative group">
               <img 
-                src="/profile.jpg" 
+                src={`${import.meta.env.BASE_URL}profile.jpg`} 
                 alt="Wanderson" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Wanderson&background=0D8ABC&color=fff&size=200' }}
