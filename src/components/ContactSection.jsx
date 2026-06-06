@@ -2,7 +2,7 @@ import { h } from 'preact'
 
 export function ContactSection() {
   return (
-    <section className="py-20 bg-dark-900 border-t border-dark-800">
+    <section id="contact" className="py-20 bg-dark-900 border-t border-dark-800">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="bg-dark-800/50 backdrop-blur-md border border-dark-700 p-8 md:p-12 rounded-2xl shadow-xl flex flex-col md:flex-row items-center gap-8 md:gap-12 relative overflow-hidden">
           
