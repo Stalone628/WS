@@ -4,7 +4,7 @@ export function Header() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded bg-primary-500 flex items-center justify-center font-bold text-white">W</div>
-          <span className="font-bold text-slate-100 tracking-tight">Wanderson<span className="text-primary-500">.dev</span></span>
+          <span className="font-bold text-slate-100 tracking-tight">Stalone<span className="text-primary-500">.dev</span></span>
         </div>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
           <a href="#about" className="hover:text-primary-400 transition-colors">Sobre</a>
