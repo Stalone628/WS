@@ -19,7 +19,8 @@ export function CaseStudies() {
       challenges: "Lidar com a alta taxa de mensagens por segundo e otimizar a renderização da tabela de dados (Virtualization).",
       result: "Dashboard fluído com mais de 5.000 atualizações por segundo renderizadas de forma limpa, diminuindo a carga no servidor em 80%.",
       tags: ["React", "WebSockets", "Performance", "Finance API"],
-      icon: "activity"
+      icon: "activity",
+      repoLink: "https://github.com/Stalone628/financial-dashboard-showcase"
     },
     {
       id: 3,
