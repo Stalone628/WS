@@ -2,6 +2,8 @@ import { Header } from './components/Header'
 import { HeroSection } from './components/HeroSection'
 import { CaseStudies } from './components/CaseStudies'
 import { TechStack } from './components/TechStack'
+import { ContactSection } from './components/ContactSection'
+import { AiAssistantWidget } from './components/AiAssistantWidget'
 
 export function App() {
   return (
@@ -11,7 +13,10 @@ export function App() {
         <HeroSection />
         <CaseStudies />
         <TechStack />
+        <ContactSection />
       </main>
+      
+      <AiAssistantWidget />
       
       <footer className="py-8 border-t border-dark-800 text-center text-slate-500 text-sm">
         <div className="container mx-auto px-4">
