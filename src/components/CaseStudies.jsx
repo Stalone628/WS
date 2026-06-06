@@ -32,6 +32,17 @@ export function CaseStudies() {
       tags: ["Node.js", "Preact", "RAG", "Artificial Intelligence", "Vector Search"],
       icon: "bot",
       repoLink: "https://github.com/Stalone628/ai-rag-assistant-showcase"
+    },
+    {
+      id: 4,
+      title: "BillingCore: SaaS Multi-Tenant B2B",
+      problem: "Sistemas de gestão lentos que misturavam dados de diferentes empresas em código espaguete, gerando problemas de segurança e performance.",
+      architecture: "Desenvolvimento de SaaS Multi-Tenant com CodeIgniter 4 (PHP), garantindo isolamento de dados no banco MySQL e Server-Side Rendering (SSR) otimizado.",
+      challenges: "Criar painéis dinâmicos sem frameworks pesados, utilizando Vanilla JS (Fetch API e Chart.js) combinado com views estritas e Tailwind CSS.",
+      result: "Plataforma B2B robusta, segura e responsiva, com gráficos renderizados localmente e carregamento de interface ultrarrápido.",
+      tags: ["PHP", "CodeIgniter 4", "Tailwind CSS", "MySQL", "Vanilla JS"],
+      icon: "credit-card",
+      repoLink: "https://github.com/Stalone628/billingcore-saas"
     }
   ];
 
@@ -54,6 +65,7 @@ export function CaseStudies() {
                 {c.icon === 'activity' && <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>}
                 {c.icon === 'server' && <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>}
                 {c.icon === 'bot' && <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 8V4H8"></path><rect width="16" height="12" x="4" y="8" rx="2"></rect><path d="M2 14h2"></path><path d="M20 14h2"></path><path d="M15 13v2"></path><path d="M9 13v2"></path></svg>}
+                {c.icon === 'credit-card' && <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>}
               </div>
               <h3 className="text-xl font-bold mb-3 text-slate-100">{c.title}</h3>
               <div className="flex-grow space-y-4 text-sm text-slate-300 mb-6">
